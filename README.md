@@ -56,7 +56,7 @@ npx sequelize-cli db:migrate
 npm install
 ```
 
-- As `root` use copy `addrbookbe.service` to `/etc/systemd/system/`
+- As `root` user copy `addrbookbe.service` to `/etc/systemd/system/`
   - Make changes to Project path entry based on your setup directory
 - Reload System Daemon
 
