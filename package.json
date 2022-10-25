@@ -1,0 +1,24 @@
+{
+  "name": "addrbookbe",
+  "version": "1.0.0",
+  "description": "nodejs rest server with mariadb",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.1"
+  }
+}
